@@ -1,0 +1,1410 @@
+  
+@font-face {
+  font-family:'Impact';
+  src: url('../fonts/impact.ttf') format('TrueType'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family:'fuente';
+  src: url('fonts/BebasNeue.otf')
+  url('fonts/BebasNeue.otf')  format('OpenType'); /* Safari, Android, iOS */
+}
+
+body{
+  font-family: 'fuente',Arial;
+}
+
+
+tbody{
+    vertical-align: baseline;
+}
+
+header{
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+.idioma{
+  float: right;
+  margin-right: -19px;
+  text-align: center;
+}
+.idioma button{
+  height: 26px;
+  width: 35%;
+  background: transparent;
+  border: 0px;
+  padding: 0px;
+}
+
+.idioma img{
+  width: 80%;
+}
+
+.mayusculas{
+  text-transform: uppercase;
+}
+
+.margin{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.cabecera_title_product_p {
+	font-family:Impact, 'Impact', sans-serif;
+  font-size: 1.25em;
+}
+
+.margin_table_head{
+  margin-top: 0px !important;
+  margin-bottom: -15px;
+}
+
+.imagenLogo{
+  width: 70%;
+  display: inline-block;
+}
+
+.logo{
+}
+
+.logo img{
+  width: 80%;
+}
+
+.text_slim{
+  font-size: 0.02em;
+  vertical-align: text-top;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.center{
+  text-align: center;
+}
+
+.textBlanco{
+  color:#fff;
+}
+
+
+.textAmarillo{
+  color:#eba55d; 
+}
+
+.textAzul{
+  color:#89d2e6;
+}
+
+.textRosa{
+  color: #ef3fa9;
+}
+
+.textCentro{
+  text-align: center !important;
+}
+
+.textRojo{
+	color:#ee2c23;
+}
+.textBold{
+	font-weight: bold;
+}
+
+.fondoAmarillo{
+ background:#eba55d;
+}
+
+.p {
+  margin-bottom: 0px;
+  line-height: 0px;
+}
+
+
+.img_footer_catalog img{
+  width: 100% !important;
+}
+
+.list_products_catalog table {
+    margin-top: -14px;
+    margin-bottom: -6px;
+    padding-top: 10px;
+}
+
+.list_products_catalog td {
+    padding: 10px 0px 17px 18px;
+    text-align: left;
+    border-bottom: 0;
+}
+
+.list_products_catalog td p{
+margin-bottom: 13px;
+}
+
+.list_products_catalog img{
+  width: 50%;
+}
+
+
+.menuHamburguesa{
+  width: 30%;
+  position: absolute;
+  display: none;
+}
+
+
+.botonMenuHamburguesa{
+  width: 30%;
+  display: inline-block;
+  padding: 25px;
+  border: 0px !important;
+  background: url(../images/hamburguesa.png);
+}
+
+.botonMenuHamburguesa:active{
+  background: url(../images/hamburguesaRed.png);
+}
+
+
+
+/* MENU NORMAL */
+
+.menu{
+  width: 100%;
+}
+
+.menu nav{
+  float: right;
+  height: 30px;
+  margin-top: 7%;
+  font-size: 0.8em;
+}
+
+.menu p{
+  margin-bottom: 0px;
+}
+
+.menu ul li{
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.menu ul li:nth-child(4){
+  text-align: right;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: 1em;
+}
+
+.menu img{
+  width: 70%;
+}
+
+
+/* BOTONERA HEXAGONOS*/
+
+.exceptionLeft{
+  margin-left: 5.5%!important;
+}
+.exceptionTop{
+  margin-top: -65px;
+  margin-left: 2%;
+}
+
+.exception{
+  width: 22.666667% !important;
+
+}
+
+.exception img{
+  margin-top: 2px;
+  width: 98% !important;
+}
+
+.botonera{
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  float: left;
+}
+.botonera img{
+   width: 45%;
+}
+
+.btnUno img{
+  width: 47%;
+}
+.btnUno{
+  width: 50%;
+  margin-left: 49%;
+  margin-top: -3px;
+}
+
+
+.btnDos{
+  margin-right: 53%;
+}
+
+
+.botoneraSegundaParte{
+  text-align: center;
+}
+
+.botoneraSegundaParte img{
+   width: 75%;
+}
+
+.btnDosUno{
+    width: 77% !important;
+    margin-left: 26%;
+    margin-top: -9px;
+}
+
+.btnDosTres{
+  margin-right: 24%;
+}
+
+.botonMenu {
+  text-align: center;
+}
+.botonMenu img{
+  width: 45%;
+}
+
+.botonMenuSegundaParte img{
+  width: 70%;
+}
+
+
+.segundoUno {
+  text-align: center;
+
+}
+
+.segundoMedio{
+  text-align: center;
+}
+
+
+.segundoDos{
+  text-align: center;
+}
+
+.btnUno .btnDos img[usemap], map area{
+    border: none;
+    height: auto;
+    max-width: 45%;
+    width: auto;
+    outline: 0px;
+}
+.btnDosUno .btnDosTres img[usemap], map area{
+    border: none;
+    height: auto;
+    max-width: 70%;
+    width: auto;
+    outline: 0px;
+}
+
+
+/*.mapImages img[usemap], map area{
+    border: none;
+    height: auto;
+    max-width: 45%;
+    width: auto;
+    outline: 0px;
+}*/
+
+
+.mapCerdo{
+  background:url(../images/puerco.png);
+  background-size: 100%;
+  z-index: 1;
+}
+
+
+
+
+
+/* MENU RESPONSIVE */
+
+#menuResponsive{
+   display: none; 
+}
+
+.menuResponsive{ 
+  overflow: hidden;
+  text-align: center;
+}
+
+.menuResponsive ul li {
+  list-style: none;
+}
+
+.menuResponsive ul li a{ 
+  text-decoration: none;
+  color: #000;
+}
+.menuResponsive ul li a img{ 
+  width: 7%;
+
+}
+
+hr {
+    margin-top: 0.2rem;
+    width: 60%;
+    margin-bottom: 1rem;
+    border-width: 0;
+    border-top: 1px solid #E1E1E1;
+}
+
+
+
+/*SLIDER*/
+
+#slider{
+  width: 100%;
+  overflow: hidden;
+}
+
+.bjqs img{
+  width: 100%;
+} 
+/* ESTILOS DEL SLIDESHOW */
+ 
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+li.bjqs-slide{position:absolute; display:none;}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{ 
+	display: block;
+    width: 60%;
+    margin: 0;
+    padding: 1%;
+    bottom:0;
+    right: 0;
+    position: absolute;
+    font-size: 4em;
+    font-family: Impact, 'Impact', sans-serif;
+    text-align: center;
+    text-shadow: 3px 2px 1px #2e2d2c;
+}
+ 
+.bjqs-caption p:nth-child(3){
+  color: #000 !important;
+}
+
+ 
+.bjqs-caption{
+  color:#fff;
+  opacity:0.96;
+}
+ 
+/* BOTONERA UBICADA AL PIE DEL SLIDESHOW */
+ol.bjqs-markers{
+display: none;
+margin-top:35px;
+}
+ol.bjqs-markers li a{
+padding: 5px 10px;
+background: #000;
+color: #fff;
+margin: 5px;
+text-decoration: none;
+transition:background .5s ease;
+-webkit-transition:background .5s ease;
+-moz-transition:background .5s ease;
+-o-transition:background .5s ease;
+}
+li.active-marker a, ol.bjqs-markers li a:hover{
+display: none; 
+background:gray!important;
+}
+ 
+/* CONTROLES ATRAS Y ADELANTE */
+
+ul.bjqs-controls.v-centered li a {
+
+display: block;
+padding: 10px;
+background: whitesmoke;
+color: #000;
+text-decoration: none;
+opacity:.75;
+display: none; 
+transition:color .5s ease, background .5s ease;
+-webkit-transition:color .5s ease, background .5s ease;
+-moz-transition:color .5s ease, background .5s ease;
+-o-transition:color .5s ease, background .5s ease;
+}
+ul.bjqs-controls.v-centered li a:hover{
+
+    background:#000;
+    color:#fff;
+    display: none;
+}
+
+
+/* BANNER INTERIORES */
+
+.banner img{
+  width: 100%;
+}
+
+footer{
+  text-align: center;
+}
+
+/* CONTACTO */
+
+.tituloFormulario{
+  text-align: center;
+  color: #fff; 
+  padding: 20px 0 0 0;
+}
+
+form{
+  font-family: 'fuente',Arial;
+  background: #939aa0;
+  color: #fff; 
+  text-align: center;
+}
+
+
+.email{
+  width: 60%;
+}
+
+textarea{
+  width: 60% !important;
+  resize: none;
+  height: 200px;
+}
+
+.submitForm{
+  background: red !important;
+  color: #fff !important;
+  border: 1px solid red !important;
+}
+
+.textInput{
+  color: gray;
+}
+.tituloInput{
+  padding: 2% 0 0 0 ;
+}
+
+
+.list_products img{
+  width: 50%;
+}
+
+
+.uno img{
+  float: right;
+}
+
+.dos img{
+  float: left;
+}
+
+
+.container_menu_products img{
+  width: 50%;
+}
+
+.right img{
+  float: right;
+}
+
+.menuProductos p{
+  padding:10%;
+}
+
+
+
+.menuProductos img{
+  vertical-align: middle;
+} 
+
+#responsive{
+  display: none;
+}
+
+
+.menuProductos a{
+  text-decoration: none;
+  color: #000;
+}
+
+.btn_catalogo{
+  text-align: center;
+  padding: 30px;
+}
+
+
+.btn_catalogo button{
+  border-radius: 0px; 
+}
+
+
+.title_catalog{
+  text-align: center;
+}
+
+/***********************************************
+
+CONTAINER MENU CONTENIDO
+
+* ** * * * * * * * * * * ** * * * * * * * * * * * * * * */
+
+
+
+.btn_granulados{
+  float: right;
+  background: #eba55d;
+  border: 0px;
+  color: #fff;
+  margin-right: 5%;
+  width: 33%;
+  padding: 1px;
+}
+
+
+.title_container_menu{
+  overflow: hidden;
+  width: 100%;
+  background: #ee2c23;
+  border-radius: 0 40px 0 0;
+}
+
+.title_container_menu p{
+  padding: 15px 20px 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.title_container_menu img{
+  vertical-align: middle;
+  float: right;
+}
+
+
+.cabecera_title_product{
+  width: 20%;
+      margin-bottom: 0;
+  display: inline-block;
+  border-top: 10px solid #eba55d;
+}
+
+  .cabecera_title_product p{
+    font-size: 2em;
+  }
+
+.cabecera_desc_product{
+  width: 80%;
+  margin-top: 0;
+      margin-bottom: 0;
+  display: inline-block;
+  border-top: 3px solid #eba55d;
+  border-bottom: 7px solid transparent;
+}
+
+.cabecera_img_product{
+  margin: auto;
+  text-align: center;
+}
+
+td {
+  padding: 0;
+}
+
+
+
+/***********************************************
+
+CONTAINER HIDROSOLUBLES
+
+* ** * * * * * * * * * * ** * * * * * * * * * * * * * * */
+.btn_hidro{
+  float: right;
+  background: #ef3fa9;
+  border: 0px;
+  color: #fff;
+  margin-right: 5%;
+  width: 33%;
+  padding: 0px;
+}
+.title_container_menu_hidrosolubles{
+  overflow: hidden;
+  width: 100%;
+  background: #ee2c23;
+  border-radius: 0 40px 0 0;
+}
+
+.title_container_menu_hidrosolubles p{
+  padding: 15px 20px 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.title_container_menu_hidrosolubles img{
+  vertical-align: middle;
+  float: right;
+}
+
+
+.cabecera_title_product{
+  width: 20%;
+      margin-bottom: 0;
+  display: inline-block;
+  border-top: 10px solid #eba55d;
+}
+
+.cabecera_title_product p{
+    font-size: 2em;
+}
+
+.cabecera_desc_product{
+  width: 80%;
+  margin-top: 0;
+      margin-bottom: 0;
+  display: inline-block;
+  border-top: 3px solid #eba55d;
+  border-bottom: 7px solid transparent;
+}
+
+.cabecera_img_product{
+  margin: auto;
+  text-align: center;
+}
+
+td {
+  padding: 0;
+}
+
+
+.cabecera_title_product_hidrosoluble{
+  width: 20%;
+      margin-bottom: 0;
+  display: inline-block;
+  border-top: 10px solid #ef3fa9;
+}
+
+.cabecera_desc_product_hidrosoluble{
+  width: 80%;
+  margin-top: 0;
+      margin-bottom: 0;
+  display: inline-block;
+  border-top: 3px solid #ef3fa9;
+  border-bottom: 7px solid transparent;
+}
+
+.fondoRosa{
+  background:#ef3fa9;
+}
+
+
+.fondoRosaImagen{
+  background: url(../images/rosa_footer_cat.png);
+  background-size: 105% 100%;
+  height: 300px;
+}
+
+
+.button_download_catalog_hidro form{
+  background: #fff ;
+}
+
+.button_download_catalog_hidro button{
+  background: #ef3fa9 ;
+  color: #fff;
+}
+
+
+
+/***********************************************
+
+CONTAINER FOLIARES
+
+* ** * * * * * * * * * * ** * * * * * * * * * * * * * * */
+
+
+.btn_foliares{
+  float: right;
+  background: #89d2e6;
+  border: 0px;
+  color: #fff;
+  margin-right: 5%;
+  width: 33%;
+  padding: 0px;
+}
+
+.cabecera_title_product_foliares{
+  width: 20%;
+  margin-bottom: 0;
+  display: inline-block;
+  border-top: 10px solid #89d2e6;
+}
+
+.cabecera_title_product_foliares p{
+    font-size: 1em;
+}
+
+.cabecera_desc_product_foliares{
+  width: 80%;
+  margin-top: 0;
+      margin-bottom: 0;
+  display: inline-block;
+  border-top: 3px solid #89d2e6;
+  border-bottom: 7px solid transparent;
+}
+
+.cabecera_img_product{
+  margin: auto;
+  text-align: center;
+}
+
+td {
+  padding: 0;
+}
+
+
+.cabecera_desc_product_foliares{
+  width: 20%;
+      margin-bottom: 0;
+  display: inline-block;
+  border-top: 10px solid #89d2e6;
+}
+
+.cabecera_desc_product_foliares{
+  width: 80%;
+  margin-top: 0;
+      margin-bottom: 0;
+  display: inline-block;
+  border-top: 3px solid #89d2e6;
+  border-bottom: 7px solid transparent;
+}
+
+.fondoRosa{
+  background:#ef3fa9;
+}
+
+
+.fondoRosaImagen{
+  background: url(../images/rosa_footer_cat.png);
+  background-size: 105% 100%;
+  height: 300px;
+}
+
+
+.button_download_catalog_hidro form{
+  background: #fff ;
+}
+
+.button_download_catalog_hidro button{
+  background: #ef3fa9 ;
+  color: #fff;
+}
+
+
+
+
+/***********************************************
+
+CONTAINER QUELATOS
+
+* ** * * * * * * * * * * ** * * * * * * * * * * * * * * */
+
+
+.fondoRosaImagenquelatos{
+  background: url(../images/rosa_footer_cat.png);
+  background-size: 105% 100%;
+  height: 500px;
+}
+
+.table_quelatos{
+  margin-top: 0px !important;
+}
+
+.logoIndependiente{
+      width: 90% !important;
+    vertical-align: middle;
+}
+
+
+
+/***********************************************
+
+CONTAINER FOliares
+
+* ** * * * * * * * * * * ** * * * * * * * * * * * * * * */
+
+.fondoAzulFoliares{
+  background: url(../images/azul_footer_cat.png);
+  background-size: 105% 100%;
+  height: 200px;
+}
+
+.fondoAzul{
+  background:#89d2e6;
+}
+
+
+/* * * * * * * *  * * *  * * * * * * * * * * * * * * * * 
+
+Colores Botonoes
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.division_agricola{
+ background: #e02343;
+ color: #fff;
+}
+
+.division_agricola:hover{
+ background: #fff;
+ color: #000;
+}
+
+
+.tratamiento_agua{
+  background: #207fd6;
+  color: #fff;
+}
+
+.tratamiento_agua:hover{
+  background: #fff;
+  color: #000;
+}
+
+.tratamiento_agua{
+  background: #207fd6;
+  color: #fff;
+}
+
+.tratamiento_agua:hover{
+  background: #fff;
+  color: #000;
+}
+
+
+.division_industrial{
+  background: #b2b2b2;
+  color: #fff;
+}
+
+.division_industrial:hover{
+  background: #fff;
+  color: #000;
+}
+
+
+
+
+/* Dropdown Button */
+
+.dropdown {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    margin-right: 14%;
+    margin-top: 8%;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.dropdown a{
+    display: inline;
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+    padding: 10px 0 0 0;
+    height: 20px;
+}
+
+.menu button{
+  border: 0;
+  font-weight: normal;
+  padding: 0;
+  font-size: 1em;
+}
+
+.button_download_catalog form{
+  background: #fff ;
+}
+
+.button_download_catalog button{
+  background: #ee2c23 ;
+  color: #fff;
+}
+
+.button_download_catalog_segundo form{
+  background: transparent;
+  color: #000;
+}
+
+
+.mapa img{
+  width: 100%;
+}
+
+.formDirect{
+  background: #fff; 
+  text-align: inherit;
+}
+
+.buttonFormDirect{
+  border:0px;
+  padding:0px;
+  text-transform: inherit;
+  display: inline-block; 
+  font-weight: normal;
+    /* height: 38px; */
+    /* padding: 0 30px; */
+    /* color: #555; */
+    /* text-align: center; */
+    /* font-size: 11px; */
+    /* font-weight: 600; */
+    /* line-height: 38px; */
+    /* letter-spacing: .1rem; */
+    /* text-decoration: none; */
+    white-space: nowrap;
+    background-color: transparent;
+    /* border-radius: 4px; */
+    /* border: 1px solid #bbb; */
+    /* cursor: pointer; */
+    box-sizing: border-box;
+}
+
+.buttonFormDirect:hover{
+  color: #ee2c23;
+}
+
+.fondoAmarilloImagen{
+  background: url(../images/amarillo_footer_cat.png);
+  background-size: 105% 100%;
+  height: 300px;
+}
+
+.marginBottom{
+  margin-bottom: 10%;
+}
+
+.paddingSoloText{
+  padding:0 !important;
+}
+
+
+.directorio p{
+	margin-left: 20%;
+}
+
+
+.cabecera_title_ultimos_catalogos{
+  width: 20%;
+  margin-bottom: 0;
+  display: inline-block;
+  border-top: 10px solid #000;
+}
+
+.cabecera_desc_ultimos_catalogos{
+  width: 80%;
+  margin-top: 0;
+      margin-bottom: 0;
+  display: inline-block;
+  border-top: 3px solid #000;
+  border-bottom: 7px solid transparent;
+}
+
+
+.btn_segundo{
+  background: transparent;
+  border: 0px;
+  color: #000;
+  margin-right: 5%;
+  width: 95%;
+  padding: 0px;
+  border:1px solid #000;
+}
+
+
+
+/*Estilos unicos banner*/
+
+.fe{
+  color: #000;
+  display: block;margin: 0;
+  padding: 1%;
+  bottom: 0;
+  left: 0;position: absolute;
+  font-size: 4em;
+  font-family: Impact, 'Impact', sans-serif;
+  text-align: center;
+  text-shadow: 3px 2px 1px #2e2d2c;
+}
+
+.zn{
+  color: red;display: block;margin: 0;padding: 1%;bottom: 32%;left: 12%;position: absolute;font-size: 4em;font-family: Impact, 'Impact', sans-serif;text-align: center;text-shadow: 3px 2px 1px #2e2d2c;
+}
+
+.mn{
+  color: blue;display: block;margin: 0;padding: 1%;bottom: 60%;left: 23%;position: absolute;font-size: 4em;font-family: Impact, 'Impact', sans-serif;text-align: center;text-shadow: 3px 2px 1px #2e2d2c;
+}
+
+.b{
+  color: gray;display: block;margin: 0;padding: 1%;bottom: 15%;left: 40%;position: absolute;font-size: 4em;font-family: Impact, 'Impact', sans-serif;text-align: center;text-shadow: 3px 2px 1px #2e2d2c;
+}
+
+.mo{
+  color: purple;display: block;margin: 0;padding: 1%;bottom: 40%;left: 52%;position: absolute;font-size: 4em;font-family: Impact, 'Impact', sans-serif;text-align: center;text-shadow: 3px 2px 1px #2e2d2c;
+}
+
+.s04{
+  color: green;display: block;margin: 0;padding: 1%;bottom: 20%;right: 17%;position: absolute;font-size: 4em;font-family: Impact, 'Impact', sans-serif;text-align: center;text-shadow: 3px 2px 1px #2e2d2c;
+}
+
+.cl{
+  color: #fff;display: block;margin: 0;padding: 1%;bottom: 10%; right: 4%;position: absolute;font-size: 4em;font-family: Impact, 'Impact', sans-serif;text-align: center;text-shadow: 3px 2px 1px #2e2d2c;
+}
+
+/* Larger than desktop */
+
+@media (max-width: 1000px) {
+
+  .menu ul li{
+    padding-left: 20px;
+  }
+
+  .menu ul li a{
+    font-size: 0.9em;
+  }
+  
+  .menu img{
+    width: 60%;
+  } 
+
+  .logo img{
+    width: 90%;
+  }
+  .directorio p{
+    margin-left: 5%;
+    font-size: 0.85em;
+  }
+    .btnDosUno {
+    width: 49% !important;
+  }
+  .btn_foliares {
+    margin-right: 30%;
+    width: 60%;
+    font-size: 0.5em;
+  }
+
+  .btn_hidro{
+    margin-right: 30%;
+    width: 60%;
+    font-size: 0.5em;
+  }
+
+  .btn_segundo{
+    width: 100%;
+    font-size: 0.5em;
+  }
+
+
+
+}
+
+@media (max-width: 750px) {
+
+  .fe{
+    font-size: 1.5em;
+  }
+
+  .zn{
+    color:red !important;
+    font-size: 1.5em;
+  }
+
+  .mn{
+    color: blue !important;
+    font-size: 1.5em;
+  }
+
+  .b{
+    color: gray !important;
+    font-size: 1.5em;
+  }
+
+  .mo{
+    color: purple !important;
+    font-size: 1.5em;
+  }
+
+  .s04{
+    color: green !important;
+    font-size: 1.5em;
+  }
+
+  .cl{
+    color: #fff !important;
+    font-size: 1.5em;
+  }
+
+  .btn_foliares {
+    margin-right: 34%;
+    width: 59%;
+    font-size: 0.1em;
+  }
+
+  .btn_hidro {
+    margin-right: 34%;
+    width: 59%;
+    font-size: 0.1em;
+  }
+
+
+  .btnDosUno {
+    width: 49% !important;
+  }
+  .idioma{
+    margin-right: 0px;
+  }
+  .idioma button {
+    width: 15%;
+  }
+
+  .menu ul li{
+    padding-left: 10px;
+  }
+
+  .list_products_catalog td {
+      font-size: 0.68em;
+      padding: 13px 0px 0px 4px;
+  }
+
+  .menu ul li a{
+    font-size: 0.8em;
+  }
+  
+  .menu img{
+    width: 50%;
+  }
+
+  .logo img{
+    width: 100%;
+  }
+
+  .botonera{
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+
+  .btnUno {
+    margin-left: 0%;
+  }
+
+  .btnDos {
+    margin-right: 0%;
+  }
+
+  .exceptionTop {
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+
+  .exceptionLeft {
+    margin-left: 0% !important;
+  }
+
+  .btnDosUno {
+    margin-left: 0%;
+  }
+
+  .botoneraSegundaParte img {
+    width: 43%;
+  }
+  .container_menu_products img {
+    width: 100%;
+  }
+
+  .exception{
+    width: 100% !important;
+  }
+
+  .exceptionResponsive {
+    width: 100% !important;
+  }
+
+  .exception img {
+    width: 44% !important;
+  }
+
+  .btnDosTres {
+    margin-right: 0%;
+  }
+
+  .text h5{
+    text-align: center;
+  }
+
+  .text{
+    text-align: justify;
+  }
+
+  .tituloCarrito{
+    text-align: center;  
+  }
+
+  .title_container_menu_hidrosolubles img {
+    margin-top: 3%;
+    width: 31%;
+  }
+
+  .title_container_menu img {
+    margin-top: 3%;
+    width: 31%;
+  }
+
+  .fondoAmarilloImagen{
+    height: 150px;
+  }
+  .fondoRosaImagen{
+    height: 150px;
+  }
+  .fondoRosaImagenquelatos{
+  background: url(../images/rosa_footer_cat.png);
+  background-size: 105% 100%;
+  height: 200px;
+  }
+
+  .table_quelatos{
+    margin-top: -60px !important;
+  } 
+
+  .table_quelatos td {
+   padding: 0px 0px 0px 7px !important;
+  }
+
+  .list_products_catalogFoliares {
+    padding: 12px 0px 0px 0px !important;
+  }
+  .list_products_catalogFoliares p {
+    width: 100%;
+  }
+
+  p.bjqs-caption{ 
+  	width: 98%;
+    font-size: 1.5em;
+    text-shadow: 2px 3px 1px #262525;
+	}
+
+  .directorio p{
+    margin-left: 0%;
+    font-size: 0.7em;
+  }
+
+}
+
+@media (max-width: 550px) {
+
+  .menuHamburguesa{
+    width: 12%;
+    position: absolute;
+    display: block;
+    right:0px;
+  }
+
+  .logo img{
+    width: 45%;
+  }
+
+  .botonMenuHamburguesa {
+    padding: 20px;
+    background-size: 100%;
+  }
+
+  .menu{
+    display: none;
+  }
+
+  #slider{
+  overflow: hidden;
+  height: 300px;
+  }
+
+  .list_products{
+    font-size: 0.8em;
+  }
+
+  .list_products img{
+    width: 100%;
+  }
+  .uno img{
+    float: none;
+    width: 100%;
+  }
+  .dos img{
+    float: none;
+    width: 100%;
+  }
+
+  .noresponsive{
+    display: none;
+  }
+  #responsive{
+    display: block;
+  }
+  .menuProductos p{
+    padding:1%;
+  }
+  .directorio p{
+    font-size: 1em;
+    text-align: center
+  }
+  	.btn_hidro {
+    	width: 75%;
+    	float: inherit;
+	}
+
+	.cabecera_title_product_p {
+    	font-size: 0.7em;
+	}
+	.table_quelatos {
+    margin-top: 0px !important;		
+	}
+	.table_quelatos td {
+    	padding: 0px 0px 0px 3px !important;
+	}		
+	.btn_foliares {
+    	width: 75%;
+	}
+
+	.btn_foliares {
+		float: inherit;
+	}
+	.btn_granulados {
+		width: 75%;
+		font-size: 0.1em;
+		float: inherit;
+	}
+	.list_products_catalog td {
+    font-size: 0.55em;
+	}
+
+}
+
