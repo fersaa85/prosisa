@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'es',
 
     /*
     |--------------------------------------------------------------------------
@@ -148,6 +148,8 @@ return [
 
         Collective\Html\HtmlServiceProvider::class,
         Anouar\Paypalpayment\PaypalpaymentServiceProvider::class,
+
+        Ktquez\Tinymce\TinymceServiceProvider::class
 
 
     ],

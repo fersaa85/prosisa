@@ -10,39 +10,56 @@ $(document).ready(function(){
         }
     });
 
+    showSubMenu();
 });
 
+function showSubMenu() {
+
+    if( $("#show").length ) {
+        $("#show").click(function () {
+            if ($('#dropdown').is(":visible")) {
+                $('#dropdown').hide("slow");
+            } else {
+                $('#dropdown').show("slow");
+            }
+        });
+    }
+}
+
+
+
+
 $('#Map1').hover(function() {
-    $('#image_jitomates').attr('src', 'images/jitomatesover.png');
+    $('#image_jitomates').attr('src', 'assets/images/jitomatesover.png');
     }, function() {
-    $('#image_jitomates').attr('src', 'images/jitomates.png');
+    $('#image_jitomates').attr('src', 'assets/images/jitomates.png');
     }
 );
 
 $('#Map2').hover(function() {
-    $('#image_cerdo').attr('src', 'images/boton_puercoover.png');
+    $('#image_cerdo').attr('src', 'assets/images/boton_puercoover.png');
     }, function() {
-    $('#image_cerdo').attr('src', 'images/boton_puerco.png');
+    $('#image_cerdo').attr('src', 'assets/images/boton_puerco.png');
     }
 );
 
 $('#Map3').hover(function() {
-    $('#image_agua').attr('src', 'images/agua_over.png');
+    $('#image_agua').attr('src', 'assets/images/agua_over.png');
     }, function() {
-    $('#image_agua').attr('src', 'images/btn_agua.png');
+    $('#image_agua').attr('src', 'assets/images/btn_agua.png');
     }
 );
 
 $('#Map4').hover(function() {
-    $('#image_elote').attr('src', 'images/botonelotes_over.png');
+    $('#image_elote').attr('src', 'assets/images/botonelotes_over.png');
     }, function() {
-    $('#image_elote').attr('src', 'images/boton_elotes.png');
+    $('#image_elote').attr('src', 'assets/images/boton_elotes.png');
     }
 );
 
 $('#Map5').hover(function() {
-    $('#image_maquina').attr('src', 'images/boton-quienes-somos_over.png');
+    $('#image_maquina').attr('src', 'assets/images/boton-quienes-somos_over.png');
     }, function() {
-    $('#image_maquina').attr('src', 'images/boton_quienessomos.png');
+    $('#image_maquina').attr('src', 'assets/images/boton_quienessomos.png');
     }
 );

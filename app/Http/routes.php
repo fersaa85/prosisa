@@ -10,11 +10,21 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+*/
+
+Route::group(['prefix' => 'admin',
+    'middleware'=> 'auth'], function () {
+
+    Route::controller('shop', 'AdminShopController');
+    Route::controller('slider', 'AdminSliderController');
+    Route::controller('contend', 'AdminContendController');
+
+});
 
 
-Route::controller('payment', 'PaypalPaymentController');
 Route::controller('tienda', 'ShopController');
+Route::controller('/', 'HomeController');

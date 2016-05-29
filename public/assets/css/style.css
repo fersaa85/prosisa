@@ -29,7 +29,8 @@ header{
   margin-right: -19px;
   text-align: center;
 }
-.idioma button{
+.idioma button,
+.idioma a{
   height: 26px;
   width: 35%;
   background: transparent;
@@ -38,7 +39,7 @@ header{
 }
 
 .idioma img{
-  width: 80%;
+  width: 36px;
 }
 
 .mayusculas{
@@ -475,7 +476,17 @@ form{
   color: #fff; 
   text-align: center;
 }
-
+form[name=f1]{
+  background: transparent;
+}
+form[name=f1] input[type=submit] {
+  background: #e02343;
+  color: #fff;
+}
+form[name=f1] input[type=submit]:hover {
+  background: transparent;
+  color: #333;
+}
 
 .email{
   width: 60%;
@@ -1081,6 +1092,30 @@ Colores Botonoes
   color: #fff;display: block;margin: 0;padding: 1%;bottom: 10%; right: 4%;position: absolute;font-size: 4em;font-family: Impact, 'Impact', sans-serif;text-align: center;text-shadow: 3px 2px 1px #2e2d2c;
 }
 
+
+
+.bg-footer-catalog {
+  background-image: url(../images/bg-footer-catalog.png);
+  background-size: 105% 100%;
+  height: 200px;
+}
+
+
+.list_products form, .list_products_catalog form{
+  background: transparent;
+}
+.list_products table, .list_products table td{
+  vertical-align: top;
+}
+
+.text-center{
+  text-align: center;
+}
+
+input[type="submit"].btn-pink{
+  background: #e02343;
+  color: #fff;
+}
 /* Larger than desktop */
 
 @media (max-width: 1000px) {

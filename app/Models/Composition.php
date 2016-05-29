@@ -13,4 +13,8 @@ class Composition extends Model {
      */
     protected $table = 'catalog_products_composition';
 
+
+    public $timestamps = false;
+
+
 }
